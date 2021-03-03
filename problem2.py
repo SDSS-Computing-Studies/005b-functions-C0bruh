@@ -7,5 +7,11 @@ Return value is the distance between the (x,y) coordinates.
 Note that the coordinates should be signed (positive or negative) floats
 (2 points)
 """
+
 import math
 
+def distance(x,y):
+    return math.hypot(y[0]-x[0],y[1]-x[1])
+
+
+    round(problem2.distance( (2,4) , (6,3)) , 3) 
