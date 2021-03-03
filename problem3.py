@@ -8,3 +8,6 @@ into another number.
 Example: The factors of 10 are 1, 2, 5, 10
 (2 points)
 """
+import math
+
+def factors(x)
